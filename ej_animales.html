@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <title>Cuadro Comparativo de Estructuras de Datos</title>
+</head>
+<body>
+
+<h2>Cuadro Comparativo de Estructuras de Datos</h2>
+
+<table>
+    <tr>
+        <th>Estructura de Datos</th>
+        <th>Ventajas</th>
+        <th>Desventajas</th>
+    </tr>
+    <tr>
+        <td>Listas</td>
+        <td>
+            <ul>
+                <li>Flexible, permite inserciones y eliminaciones eficientes.</li>
+                <li>Puede contener elementos de diferentes tipos.</li>
+                <li>Implementaciones variadas como listas enlazadas y listas dinámicas.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Acceso secuencial, puede tener un alto costo para búsquedas.</li>
+                <li>Ocupa más espacio en comparación con estructuras de datos más simples.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Pilas</td>
+        <td>
+            <ul>
+                <li>Operaciones eficientes LIFO (Last In, First Out).</li>
+                <li>Estructura simple y fácil de implementar.</li>
+                <li>Útil para la gestión de llamadas de funciones y operaciones de historial.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Acceso limitado a los elementos interiores, no es eficiente para búsquedas aleatorias.</li>
+                <li>No es adecuada para situaciones que requieren acceso a elementos intermedios.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Colas</td>
+        <td>
+            <ul>
+                <li>Operaciones eficientes FIFO (First In, First Out).</li>
+                <li>Útil en situaciones que siguen un orden secuencial, como impresión de trabajos.</li>
+                <li>Puede utilizarse para la gestión de tareas en sistemas operativos.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Acceso limitado a los elementos interiores, no es eficiente para búsquedas aleatorias.</li>
+                <li>No es adecuada para situaciones que requieren acceso a elementos intermedios.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Tablas de Hash</td>
+        <td>
+            <ul>
+                <li>Búsqueda rápida en promedio, estructura eficiente para grandes conjuntos de datos.</li>
+                <li>Adaptabilidad a cambios en el tamaño de la colección de datos.</li>
+                <li>Puede utilizarse para la implementación eficiente de diccionarios.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Posibilidad de colisiones, que pueden afectar el rendimiento.</li>
+                <li>Dificultad en el manejo de elementos eliminados (tumbstones).</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Árboles Binarios</td>
+        <td>
+            <ul>
+                <li>Búsqueda eficiente, estructura ordenada.</li>
+                <li>Puede utilizarse para implementar estructuras más complejas como árboles AVL y árboles rojo-negro.</li>
+                <li>Útil en situaciones que requieren ordenamiento de datos.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Inserción y eliminación pueden requerir reorganización del árbol.</li>
+                <li>Ocupa más espacio en comparación con estructuras de datos más simples.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Grafo</td>
+        <td>
+            <ul>
+                <li>Modela relaciones complejas entre elementos.</li>
+                <li>Puede utilizarse para representar redes sociales, sistemas de transporte, y relaciones entre entidades.</li>
+                <li>Algoritmos eficientes para resolver problemas específicos en grafos.</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>Operaciones más complejas en comparación con estructuras de datos más simples.</li>
+                <li>Requerimiento de almacenamiento adicional para representar conexiones entre nodos.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
